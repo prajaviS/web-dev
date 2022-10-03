@@ -8,9 +8,9 @@
 
     h1 {
        margin-bottom: 15px;
-    text-align: center;
-    color: red;
-    font-size: 50px;
+       text-align: center;
+       color: #ff4532;
+       font-size: 50px;
     }
 
     section {
@@ -43,7 +43,7 @@
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: green;
+        background-color: #FFB6C1;
 
     }
 
@@ -57,7 +57,7 @@
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: blue;
+        background-color: #FF0000;
 
     }
 
@@ -71,7 +71,7 @@
         text-align: center;
         font-size: 125%;
         font-weight: bold;
-        background-color: blue;
+        background-color: rgb(223, 212, 121);
 
     }
 
