@@ -1,122 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-            body{
-            background-color:lightpink;
-            margin:20%;
-        }
-        #title{
-            text-align: center;
-            text-shadow: 5px 5px 10px white;
-            font-size: 7vh;
-            color: blue;
-            font-style: italic;
-        }
-        img{
-            display: inline-block;
-            width: 100%;
-        }
-        #caption{
-            font-size: 17px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            color: brown;
-        }
-        h1{
-            font-size: larger;
-            text-align: center;
-            text-shadow: gray;    
-        }
-        p.blue{
-            font-size: 20px;
-
-        }
-        article > p{
-            color:brown;
-            background-color: blueviolet;
-
-        }
-        article div{
-            font-size: medium;
-            font-style: italic;
-            background-color: red;
-
-        }
-        .colored span{
-            text-decoration: dotted;
-        }
-        div > .colored{
-            text-shadow: 0px;
-        }
-        li{
-            font-size: larger;
-            font-style: bold;
-            color:navy;
-        }
-        .align{
-            align-items: center;
-        }
-        
-
-        </style>
-        
+        <link rel="stylesheet" href="mod_2soln.css">
     </head>
-    <h1 id="title">MAMMA</h1>
-    <h2>Qualities</h2>
-    <ol>
-        <li>An Inspiration</li>
-        <article>
-            <p>You are an inspiration for me.<br>
-                The support,dedication and all the sacrifices
-                <br> you made for us.I just don"t have words to express<br>
-            what it reallyb means to us <br><b>MAMMA</b> </p>
-            <div>It truly is an inspiration for me!</div>
-        </article>
-        <li>A God's figure for us</li>
-        <div>You heard it right!!<span class="colored">GOD'S physical figure on earth!!!</span></div>
-        <p class="blue">
-            Its an emotion for us which means a <br>lot to us but uit just can't be expressed in words.
-
-        </p>
-        <li>World</li>
-        <p id="img">I cannot describe in words what you mean to me. Thanks for always being there for me.<br>
-            <br>
-
-            If I could live my life once again, I would still want you to be my mother.<br>
-            <br>
-            
-            My dearest mommy, I love you very much. I can&sbquo;t ever be thankful enough to you. You are the reason for my smile and happiness. Love you always!<br></p>
-
-
-    </ol>
-    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F572520171362086922%2F&psig=AOvVaw1enuLjpfQafotF7D6FRofz&ust=1664621762817000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCODo7LatvPoCFQAAAAAdAAAAABAE">A message for you</a>
-    <img src="data:image/jpeg;base64,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" class="align">
-    <small id="caption">
-        <b><i>Ain't a woman alive that could take my mama's place!" </i></b>
-        <p>
-            A mother is not just a first best friend of a child but also his/her mentor who always supports and guides her children to achieve all the success in life. A great mentor is one who always teaches you what is right and what is wrong. A mentor not only supports you but also becomes strict with you when required. And we all can see these traits in our mothers. My mother is truly my mentor as she not only guides me in every phase of my life but also supports me whenever I need her. When I make any mistake, she becomes strict with me to make me understand my mistake. But soon she showers her love on me and always supports me in my decision. She helps me in my studies and asks me to be serious about my career. She teaches me both cultural and moral values. There cannot be a better mentor than a mother because she knows what is right for you and always prefers the best for me.
-        </p>
-        <a href="http://127.0.0.1:5500/HTML/maa.html"><b>This is for you</b></a>
+    <body>
+        <h1>
+            Our Menu
+        </h1>
+        <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+            <div>
+                <p class="sub1">Chicken</p>
+                <p class="content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </p>
+            </div>
+        </section>
+        <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+            <div>
+                <p class="sub2">Beef</p>
+                <p class="content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            </div>
+        </section>
+        <section class="column-lg-4 colmn-md-12 colmn-sm-12">
+            <div>
+                <p class="sub3">Sushi</p>
+                <p class="content">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </p>
+            </div>
         
 
+    </body>
     
-    <p>
-        The word Mother is a very pious word and whosoever is called by the name &lsquo;Mother&rsquo; is a person who sacrifices and prioritizes her children over anything. Her whole Life revolves around the well-being of her child, their growth, their development, and their welfare. A Mother not just only gives birth to a child but she takes a Lifelong commitment to take care of her child. The only unconditional love in the world is the mother's love. My mother is my inspiration, my superhero, my best friend, and my guiding light. My life would not have been beautiful without my mother. Through ups and downs and in every step of life, she holds my hand and supports and encourages me. No matter what happens, my mother is always there beside me- cheering me up and motivating me. All mothers in the world are great and so, we should not celebrate their contribution in our life on Mother's Day only, which is 10th May, but every day of the year and throughout their life. It is because no gesture of appreciation is ever enough when it comes to acknowledging our mother. Her selfless love and sacrifice are the precious of all gifts under the sun.
-    </p>
-    <div>
-        <p>
-            Mothers play an important role in everyone&sbquo;s Life since she acts as a Protector, a Friend, and Guide for Life. A Mother does everything selflessly for her child and without any condition. There the love of a Mother is known to be Unconditional. The way she manages my family with utter dedication and devotion is inspiring. The relationship with my mother is something very hard to explain. I do not merely love her because she is my mother and we should respect our elders. I love her because she is my world and when I was not able to speak and communicate she took care of me, time and time again. The best part about my mother is that even though I have grown older she knows and understands my needs without me speaking a word. I learned kindness and love from her. She taught me no matter how bad a situation might get, only love can improve it in the most effective way. She has been the rock-solid pillar of my life and in every big moment of my life. My Mother has constantly supported me throughout my entire Life, whenever I am in a danger or in a situation where I am stuck, she has always been there for me, protected me, and guided me. She has been my favorite teacher who has taught me about Life and the beauty of it. She is the essence of truthfulness, sincerity, and lots of love. The only person who holds our family together is my Mother. She cares for everyone in the house and for the ones in need outside the house as well. One of the most beautiful things that I learned from my mother is empathy. Be it strangers or animals, she treats everyone equally which makes her more amazing. Moreover, she taught me to not hurt anyone on purpose and help people whenever possible. Not only this but also she taught me to not differentiate among rich or poor, beautiful or ugly. She says that it is the heart of a person that makes them beautiful and rich and not temporary possessions. My Mother is my constant source of encouragement, be it in Life or in school for studies. She has always inspired me to do other activities along with my studies. She has taught me to enjoy every aspect of Life and live Life to the fullest. She wants me to do those things in Life as well which she could not do or pursue. She is my backbone for everything. My mother has inspired me through her hard work and sacrifices. She taught me once never to get disheartened by failure and to keep challenging the failure with our honest effort. And one day, failure will pave the path to our success. The strength of facing hurdles and overcoming it is what I have learned from her. Mothers have never-ending qualities even though they do not get much credit for their goodness and hard work. She binds everyone in the family and plays a very important part in everyone’s Life. Even when I do something wrong in Life, she scolds me but at the same time, she makes me understand and helps me to get out of the situation. She forgives me after every mistake but ensures that I’ve realized my mistake first. She is the most selfless human being I have ever encountered in my life till now.My mother knows me in and out. Even if I am lying she catches me immediately and I start feeling guilty. We should never lie to our parents and especially, to our mother. They simply do not deserve it. Mothers spend a significant part of their lives making us capable of standing on our own feet. Sometimes, they have to sacrifice their own career and happiness for that. So a mother's trust should never be destroyed. And when it comes to my mother, I would not change a bit about her. She is the best chef, reading partner, and an independent working woman who can balance almost everything with utmost perfection. Even her imperfection makes me proud of her. Without my mother, I would never become a better human being. My Mother is my biggest strength and makes me, even more, stronger when I go through all my ups and downs in life. The best thing she possesses is her patience. The patience she has is difficult for anyone to have. She deals with every situation in the family, in my life, or even in her Life with so much patience because of the reason the family is bonded so strongly. It is the responsibility of every child to appreciate their Mothers and give them the love and respect that Mothers deserve.
-        </p>
-    </div>
-
-
-    </small>
-    <br>
-    <br>
-
-    <div>
-        [<small>Developed by &copy;<a href="#">Prajavi Sharma</a></small>]
-
-    </div>
-
 </html>
